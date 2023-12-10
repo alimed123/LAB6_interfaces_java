@@ -1,5 +1,5 @@
 package Part1;
-
+/* this is a test animal to check all the casting and methods implemantations */
 public class TestAnimal {
     public static void main(String[] args) {
         Fish d = new Fish();
