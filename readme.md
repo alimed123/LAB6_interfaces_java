@@ -19,7 +19,7 @@ After declaring all classes, abstract classes, and interfaces, the output of Tes
 - We can call all methods on Fish and Cat. However, for Animal as spider and Animal as fish, we can't call the Hunt() method as it's undefined in the animal class (only on the subclasses).
 - Upcasting pet to animal using `Animal anim = p;` is not possible. Downcasting `Animal a_P = (Animal) p;` is required as they don't share a direct superclass-subclass relationship. Also, Fish, Cat, or Spider cannot be converted to Animal (polymorphism) same for Fish and Cat with the pet interface.
 
-Refer to the TestAnimal.java file for method calls and casting.
+Refer to the [TestAnimal.java](https://github.com/alimed123/LAB6_interfaces_java/blob/main/Part1/TestAnimal.java) file for method calls and casting.
 
 ## Part II: Borrowing Books
 1. ### Designing Interfaces/Abstract Classes and Classes
