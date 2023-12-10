@@ -23,8 +23,8 @@ Refer to the [TestAnimal.java](https://github.com/alimed123/LAB6_interfaces_java
 
 ## Part II: Borrowing Books
 1. ### Designing Interfaces/Abstract Classes and Classes
-   - ['Book'](https://github.com/alimed123/LAB6_interfaces_java/blob/main/Part2/Book.java) is chosen as an interface with the `getTitle()` method, ensuring each book must have a title.
-   - ['Libbook'](https://github.com/alimed123/LAB6_interfaces_java/blob/main/Part2/Libbook.java) is an abstract class chosen because not all books have an author(). It includes abstract methods such as `getBorrowDuration()` and `computeFine()` that must be implemented.
+   - [Book](https://github.com/alimed123/LAB6_interfaces_java/blob/main/Part2/Book.java) is chosen as an interface with the `getTitle()` method, ensuring each book must have a title.
+   - [Libbook](https://github.com/alimed123/LAB6_interfaces_java/blob/main/Part2/Libbook.java) is an abstract class chosen because not all books have an author(). It includes abstract methods such as `getBorrowDuration()` and `computeFine()` that must be implemented.
    - Different book types can be declared as normal classes.
 
 2. ### Testbook Class
